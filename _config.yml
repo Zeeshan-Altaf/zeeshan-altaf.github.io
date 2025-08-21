@@ -29,7 +29,7 @@ resume-url: /assets/resume/zeeshan_resume.pdf or # https://drive.google.com/file
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: https://www.linkedin.com/in/zeeshan-altaf-578778b0/ 
+  linkedin: zeeshan-altaf-578778b0/ 
   github:    # https://github.com/{your url slug} 
   stackoverflow:    # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
