@@ -75,7 +75,6 @@ formspree-key:   https://formspree.io/f/mdkdrvpk
 
 # Active theme (Update this to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
-  mint theme:
   text: "2c3333"
   border: "e0f2ef"
   link: "40b3a2"
