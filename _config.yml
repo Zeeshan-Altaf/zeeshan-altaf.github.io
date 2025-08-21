@@ -52,6 +52,8 @@ skills:
     - Numpy
     - Pandas
     - Scikit-learn
+    - Supervised learning
+    - Unsupervised learning
   - category: Data Visualization
     tools:
     - Power BI
@@ -90,12 +92,12 @@ basic theme:
   light_background: "#f3f5fb"
   
   mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
+  text: "2c3333"
+  border: "e0f2ef"
+  link: "40b3a2"
+  highlight: "2a9d8f"
+  background: "f7fbfa"
+  light_background: "f0f9f7"
   
 lemon theme:
   text: "#2d2926"
