@@ -10,13 +10,13 @@ skills:
   - Exploratory data analysis
   - Data visualization
 
-main-image: /poster.png
+main-image: /CRIME.jpg
 ---
 
 ---
-{% include image-gallery.html images="_projects/news_classification/CRIME_headline.jpg" height="400" %} 
-{% include image-gallery.html images="_projects/news_classification/EDUCATION_headline.jpg" height="400" %}
-{% include image-gallery.html images="_projects/news_classification/U.S. NEWS_headline.jpg" height="400" %}
-{% include image-gallery.html images="_projects/news_classification/WORLD NEWS.jpg" height="400" %}
+{% include image-gallery.html images="/CRIME_headline.jpg" height="400" %} 
+{% include image-gallery.html images="/EDUCATION_headline.jpg" height="400" %}
+{% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
+{% include image-gallery.html images="/WORLD NEWS.jpg" height="400" %}
 place the images in project folder/images then update the file path.   
 
