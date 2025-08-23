@@ -10,7 +10,7 @@ skills:
   - Exploratory data analysis
   - Data visualization
 
-main-image: /CRIME_headline.jpeg
+main-image: /CRIME_headline.jpg
 ---
 
 ---
