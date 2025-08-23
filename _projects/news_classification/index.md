@@ -16,7 +16,6 @@ main-image: /CRIME.jpg
 ---
 {% include image-gallery.html images="/CRIME_headline.jpg" height="400" %}  {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
 World Cloud Analysis of two categorize (CRIME & U.S.NEWS) reveals the ovelapping nature of dataset.
-
-{% include image-gallery.html images="/dataset_ditribution_42.jpg" height="400" %}
+{% include image-gallery.html images="/dataset_distribution_42.jpg" height="400" %}
 Among 42 categories, Entertainment, Politics and Wellness accounts for more than 30% of the data which leads to imbalance distribution.   
 
