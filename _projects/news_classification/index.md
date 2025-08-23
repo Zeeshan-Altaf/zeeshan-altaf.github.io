@@ -10,13 +10,11 @@ skills:
   - Exploratory data analysis
   - Data visualization
 
-main-image: /CRIME_headline.jpg
+main-image: /poster.png
 ---
 
 ---
-## Embedding images 
-### Embeed images
-{% include image-gallery.html images="project2.jpg" height="400" %} 
+{% include image-gallery.html images="_projects/news_classification/CRIME_headline.jpg" height="400" %} 
 place the images in project folder/images then update the file path.   
 
 
