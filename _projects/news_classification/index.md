@@ -17,6 +17,6 @@ main-image: /CRIME.jpg
 {% include image-gallery.html images="/CRIME_headline.jpg" height="400" %} 
 {% include image-gallery.html images="/EDUCATION_headline.jpg" height="400" %}
 {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
-{% include image-gallery.html images="/WORLD NEWS.jpg" height="400" %}
+{% include image-gallery.html images="/dataset_ditribution_21.jpg" height="400" %}
 place the images in project folder/images then update the file path.   
 
