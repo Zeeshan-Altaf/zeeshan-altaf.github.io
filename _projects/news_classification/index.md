@@ -17,8 +17,11 @@ main-image: /CRIME_headline.jpg
 
 ---
 {% include image-gallery.html images="/dataset_distribution_42.jpg" height="400" %}
-**Among 42 categories, Entertainment, Politics and Wellness accounts for more than 30% of the data which leads to imbalance distribution.**
+**Among 42 categories, Entertainment, Politics and Wellness accounts for more than 30% of the data which leads to imbalance distribution.**  
+<br>
 {% include image-gallery.html images="/CRIME_headline.jpg" height="400" %}  {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
-**World Cloud Analysis of two categorize (CRIME & U.S.NEWS) reveals the ovelapping nature of dataset.**
+**World Cloud Analysis of two categorize (CRIME & U.S.NEWS) reveals the ovelapping nature of dataset.**  
+<br>
 {% include image-gallery.html images="/test_accuracy_21.jpg" height="400" %}
-**Test accuracy of DistilBART with 21 categories, achieving 71.0% accuracy.**
+**Test accuracy of DistilBART with 21 categories, achieving 71.0% accuracy.**  
+<br>
