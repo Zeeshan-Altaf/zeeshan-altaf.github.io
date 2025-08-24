@@ -1,16 +1,13 @@
 ---
 layout: post
-title: Multi-class news categorization by fine tuning pre-trained large language models (LLMs)
-description:  In this project I have created a tool to effectively categorize news articles given their headlines. Comparative analysis of DistilBERT, DistilBART, RoBERTa, and DistilGPT-2 revealed the superior perormance of DistilBART due to its higher number of learnable paramenters (~230 M). DistilBART achieved 66.3% with 42 labels of news article. Models performance were restricted due to dataset imbalance and overlapping categories. After merging overlapping categories, DistilBART achieved the accuracy of 71.0%. Models were fine-tuned and cross-validated to ensure better performance.
+title: Forecasting electricity price of Australia using time series analysis
+description: The demand for electricity and its associated costs plays a critical role in shaping national energy policy, business operations, and household economics. In this project, I focuses on applying predictive analytics techniques to historical electricity pricing data to forecast Australia’s average electricity prices through to the year 2050. The dataset, covering state-level electricity prices from 1998 to 2025, is used to analyze trends and derive forward-looking insights. Linear regression and ARIMA are implemented using R. Overall, ARIMA performed well as it incorporates both recent price changes and overall trend, making it more accurate for non-stationary time series forecasting. It predicts more realistic growth of above $200/MWh for year 2050.
+
 skills: 
-  - Machine learning
-  - Natural language processing
-  - Large language models
-  - Data cleaning
-  - Exploratory data analysis
+  - Predictive analytics
+  - Data pre-processing
   - Feature engineering
-  - Fine tuning
-  - Data visualization
+  - Data Visualization
 
 main-image: /CRIME_headline.jpg
 ---
