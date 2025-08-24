@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Multi-class news categorization by fine tuning pre-trained large language models (LLMs)
-description:  In this project I have created a tool to effectively categorize news articles given their headlines. Comparative analysis of DistilBERT, DistilBART, RoBERTa, and DistilGPT-2 revealed the superior perormance of DistilBART due to its higher number of learnable paramenters (~230 M). DistilBART achieved 66.3% with 42 labels of news article. Models performance were restricted due to dataset imbalance and overlapping categories. After merging overlapping categories, DistilBART achieved the accuracy of 71.0%. Models were fine-tuned and cross-validated to ensure better performance.
+title: Predicting outcome (fatal & non-fatal) of heart attack patients within 72 hours of hospital admission
+description: In this project I focuses on predicting fatal outcomes within 72 hours of hospital admission in patients suffering from myocardial infarction (MI), commonly referred to as a heart attack. The objective is to discover patterns and risk factors associated with early mortality using machine learning model trained on clinical and diagnostic features. I used R programming language to analyze, visualize and for training the model. Handeled dataset imbalance by using resampling technique (up-sampling & down-sampling). Random forest and XGBoost were implemented, XGBoost outperformed random forest and achieved 77.3% It not only yields superior performance on imbalanced multiclass outcomes but also maintains consistency in identifying high-risk clinical indicators.
+
 skills: 
   - Machine learning
-  - Natural language processing
-  - Large language models
   - Data cleaning
-  - Exploratory data analysis
   - Feature engineering
+  - Data modelling
   - Fine tuning
   - Data visualization
 
@@ -16,9 +15,9 @@ main-image: /CRIME_headline.jpg
 ---
 
 ---
-{% include image-gallery.html images="/dataset_distribution_42.jpg" height="400" %}
-**Among 42 categories, Entertainment, Politics and Wellness accounts for more than 30% of the data which leads to imbalance distribution.**
-{% include image-gallery.html images="/CRIME_headline.jpg" height="400" %}  {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
-**World Cloud Analysis of two categorize (CRIME & U.S.NEWS) reveals the ovelapping nature of dataset.**
-{% include image-gallery.html images="/test_accuracy_21.jpg" height="400" %}
-**Test accuracy of DistilBART with 21 categories, achieving 71.0% accuracy.**
+{% include image-gallery.html images="/outcome_distribution.png" height="400" %}
+**~85% of the patients survived (LET_IS = 0) after 72 hours of being admitted to hospital, indicates high outcome class imbalance.**
+{% include image-gallery.html images="/age_var.png" height="400" %}  {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
+**Most of the patients aged between 55-75 and it is evident that this age group is more prone to heart attack.**
+{% include image-gallery.html images="/imp_features.png" height="400" %}
+**Top 5 most important features for predicting the outcome class in XGBoost.**
