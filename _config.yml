@@ -15,7 +15,7 @@ title: Zeeshan Altaf's Portfolio # This is what shows up in the tab of the brows
 name: Zeeshan Altaf
 headline: Data Analysis & Visualization | Machine Learning • Python • SQL • Power BI | Driven to apply machine learning and analytics to solve real-world problems.
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  I am Data Scientist/Analyst with a Master's in Data Analytics from Melbourne Institute of Technology, Australia. I specialize in leveraging python, SQL, Power BI to analyze complex data sets, build predictive models, and deliver actionable insights that drive smarter business decisions.
+Data Scientist/Analyst with a Master's in Data Analytics from Melbourne Institute of Technology, Australia. I specialize in leveraging python, SQL, Power BI to analyze complex data sets, build predictive models, and deliver actionable insights that drive smarter business decisions.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
