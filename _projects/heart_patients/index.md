@@ -11,7 +11,7 @@ skills:
   - Fine tuning
   - Data visualization
 
-main-image: /CRIME_headline.jpg
+main-image: /heart_attack.png
 ---
 
 ---
@@ -21,3 +21,6 @@ main-image: /CRIME_headline.jpg
 **Most of the patients aged between 55-75 and it is evident that this age group is more prone to heart attack.**
 {% include image-gallery.html images="/imp_features.png" height="400" %}
 **Top 5 most important features for predicting the outcome class in XGBoost.**
+{% include image-gallery.html images="/performance_comparison.png" height="400" %}
+**Performance comparison of random forest and XGBoost before and after balancing dataset**
+
