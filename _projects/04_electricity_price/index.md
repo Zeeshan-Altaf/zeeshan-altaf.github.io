@@ -9,12 +9,12 @@ skills:
   - Feature engineering
   - Data Visualization
 
-main-image: /elec_poster.jpg
+main-image: /elec_poster.png
 ---
 
 ---
-{% include image-gallery.html images="/forecasting.jpg" height="400" %}
+{% include image-gallery.html images="/forecasting.png" height="400" %}
 **Forecasting of national average price of Australia from 2025 to 2050. Forecasting is based on historical data (1999-2025), linear regression and ARIMA is used.**  
-{% include image-gallery.html images="/lin_arima_comp.jpg" height="400" %}  {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
+{% include image-gallery.html images="/lin_arima_comp.png" height="400" %}
 **Performance comparison of linear regression and ARIMA.**  
 
