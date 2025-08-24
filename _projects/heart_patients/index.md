@@ -10,7 +10,7 @@ skills:
   - Data modelling
   - Fine tuning
   - Data visualization
-
+  - 
 main-image: /heart_attack.png
 ---
 
