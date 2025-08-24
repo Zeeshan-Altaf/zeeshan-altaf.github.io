@@ -16,12 +16,11 @@ main-image: /heart_attack.png
 
 ---
 {% include image-gallery.html images="/outcome_distribution.png" height="400" %}
-**~85% of the patients survived (LET_IS = 0) after 72 hours of being admitted to hospital, indicates high outcome class imbalance.**
+**~85% of the patients survived (LET_IS = 0) after 72 hours of being admitted to hospital, indicates high outcome class imbalance.** <br>
 {% include image-gallery.html images="/age_var.png" height="400" %}  {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
-**Most of the patients aged between 55-75 and it is evident that this age group is more prone to heart attack.**
+**Most of the patients aged between 55-75 and it is evident that this age group is more prone to heart attack.** <br>
 {% include image-gallery.html images="/imp_features.png" height="400" %}
-**Top 5 most important features for predicting the outcome class in XGBoost.**
-
+**Top 5 most important features for predicting the outcome class in XGBoost.** <br>
 {% include image-gallery.html images="/performance_comparison.png" height="400" %}
-**Performance comparison of random forest and XGBoost before and after balancing dataset**
+**Performance comparison of random forest and XGBoost before and after balancing dataset** <br>
 
