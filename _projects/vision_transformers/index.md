@@ -1,24 +1,28 @@
 ---
 layout: post
-title: Multi-class news categorization by fine tuning pre-trained large language models (LLMs)
-description:  In this project I have created a tool to effectively categorize news articles given their headlines. Comparative analysis of DistilBERT, DistilBART, RoBERTa, and DistilGPT-2 revealed the superior perormance of DistilBART due to its higher number of learnable paramenters (~230 M). DistilBART achieved 66.3% with 42 labels of news article. Models performance were restricted due to dataset imbalance and overlapping categories. After merging overlapping categories, DistilBART achieved the accuracy of 71.0%. Models were fine-tuned and cross-validated to ensure better performance.
+title: Detecting improvised explosive devices (IEDs) in waste receptacle using vision transformer (ViT).
+description: Hidden improvised explosive devices (IEDs) in dustbins present major hazards to the lives of the populace. This project was intended to develop an advanced AI algorithm to detect explosives within waste bins using Vision Transformers (ViTs). In this work I, gathered quality database of images which includes IEDs and non-IEDs images, identified suitable algorithm of deep learning to detect IEDs in dustbins effectively, fine-tuned pretrained ViT, and trained model for multiple classes of wastes so it can detect IED among these classes. 
+
+Among multiple varaints of ViTs (ViT-Base/16, ViT-Base/32, ViT-Large/16, ViT-Large/32, and Vit-Huge/14), I chose ViT-Base/16 and fine-tuned as follows:
+Optimizer: Adam 
+Learning Rate: 0. 001 
+Loss Function: Cross Entropy Loss
+Batch Size: 16 
+Epochs: 5
+
+The outcomes make it explicit that; ViTs perform better (86.59% accuracy) in capturing the global information in an image as compared to CNNs.
 skills: 
   - Machine learning
-  - Natural language processing
-  - Large language models
-  - Data cleaning
-  - Exploratory data analysis
-  - Feature engineering
+  - Computer vision
+  - Vision transformers
+  - Data augmentation
+  - Data pre-processing
   - Fine tuning
-  - Data visualization
 
-main-image: /CRIME_headline.jpg
+main-image: /waste.png
 ---
 
 ---
-{% include image-gallery.html images="/dataset_distribution_42.jpg" height="400" %}
-**Among 42 categories, Entertainment, Politics and Wellness accounts for more than 30% of the data which leads to imbalance distribution.**
-{% include image-gallery.html images="/CRIME_headline.jpg" height="400" %}  {% include image-gallery.html images="/U.S. NEWS_headline.jpg" height="400" %}
-**World Cloud Analysis of two categorize (CRIME & U.S.NEWS) reveals the ovelapping nature of dataset.**
-{% include image-gallery.html images="/test_accuracy_21.jpg" height="400" %}
-**Test accuracy of DistilBART with 21 categories, achieving 71.0% accuracy.**
+{% include image-gallery.html images="/.png" height="400" %}
+**ViT-Base/16 leveraged the concept of transformer based architecture and achieved 86.59% test accuracy.**
+
