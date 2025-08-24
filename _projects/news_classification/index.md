@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multi-class news categorization by fine tuning pre-trained large language models (LLMs)
-description:  In this project I have created a tool to effectively categorize news articles given their headlines. Comparative analysis of DistilBERT, DistilBART, RoBERTa, and DistilGPT-2 revealed the superior perormance of DistilBART due to its higher number of learnable paramenters (~230 M). DistilBART achieved 66.3% with 42 labels of news article. Models performance were restricted due to dataset imbalance and overlapping categories. After merging overlapping categories, DistilBART achieved the accuracy of 71.0%. Models were fine-tuned and cross-validated to ensure better performance.
+description:  Numerous news articles appear in overwhelming numbers as digital platforms continue their rapid growth across various media outlets each day. Categorizing these articles is essential to enable customized feed for the target audiences.In this project I have created a tool to effectively categorize news articles given their headlines. Comparative analysis of DistilBERT, DistilBART, RoBERTa, and DistilGPT-2 revealed the superior perormance of DistilBART due to its higher number of learnable paramenters (~230 M). DistilBART achieved 66.3% with 42 labels of news article. Models performance were restricted due to dataset imbalance and overlapping categories. After merging overlapping categories, DistilBART achieved the accuracy of 71.0%. Models were fine-tuned and cross-validated to ensure better performance.
 skills: 
   - Machine learning
   - Natural language processing
