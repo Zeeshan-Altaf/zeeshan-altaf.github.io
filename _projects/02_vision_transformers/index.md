@@ -10,7 +10,7 @@ skills:
   - Data pre-processing
   - Fine tuning
 
-main-image: /waste.png
+main-image: /bins.png
 ---
 
 ---
