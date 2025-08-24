@@ -15,5 +15,7 @@ main-image: /waste.png
 
 ---
 {% include image-gallery.html images="/ViT_accuracy.png" height="400" %}
-**ViT-Base/16 leveraged the concept of transformer based architecture and achieved 86.59% test accuracy.**
+**ViT-Base/16 leveraged the concept of transformer based architecture and achieved 86.59% test accuracy.**  
+<br>
+
 
