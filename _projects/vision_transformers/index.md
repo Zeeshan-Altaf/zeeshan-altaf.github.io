@@ -3,7 +3,7 @@ layout: post
 title: Detecting improvised explosive devices (IEDs) in waste receptacle using vision transformer (ViT).
 description: Hidden improvised explosive devices (IEDs) in dustbins present major hazards to the lives of the populace. This project was intended to develop an advanced AI algorithm to detect explosives within waste bins using Vision Transformers (ViTs). In this work I, gathered quality database of images which includes IEDs and non-IEDs images, identified suitable algorithm of deep learning to detect IEDs in dustbins effectively, fine-tuned pretrained ViT, and trained model for multiple classes of wastes so it can detect IED among these classes. 
 
-Among multiple varaints of ViTs (ViT-Base/16, ViT-Base/32, ViT-Large/16, ViT-Large/32, and Vit-Huge/14), I chose ViT-Base/16 and fine-tuned as follows:
+Among multiple varaints of ViTs (ViT-Base/16, ViT-Base/32, ViT-Large/16, ViT-Large/32, and Vit-Huge/14), I chose ViT-Base/16 and fine-tuned as follows
 Optimizer: Adam 
 Learning Rate: 0. 001 
 Loss Function: Cross Entropy Loss
