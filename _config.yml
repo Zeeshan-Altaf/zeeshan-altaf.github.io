@@ -18,7 +18,7 @@ description: >- # dont remove this line. this will ignore all new lines until th
   Data Scientist/Analyst with a Master's in Data Analytics from Melbourne Institute of Technology, Australia. I specialize in leveraging python, SQL, Power BI to analyze complex data sets, build predictive models, and deliver actionable insights that drive smarter business decisions.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/profile_pic.png
 
 
 # Link your resume
