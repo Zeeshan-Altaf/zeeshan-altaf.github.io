@@ -18,11 +18,11 @@ description: >- # dont remove this line. this will ignore all new lines until th
   Data Scientist/Analyst with a Master's in Data Analytics from Melbourne Institute of Technology, Australia. I specialize in leveraging python, SQL, Power BI to analyze complex data sets, build predictive models, and deliver actionable insights that drive smarter business decisions.
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/profile_pic.png
+profile_image: ./assets/images/profile-image/professional_photo.png
 
 # Link your resume
 # You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://zeeshan-altaf.github.io/assets/resume/zeeshan_resume.pdf # or https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing 
+resume-url: https://zeeshan-altaf.github.io/assets/resume/resume-zeeshan.pdf # or https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing 
 
 
 # Set up external links - this will show up as small icons next to your name.
